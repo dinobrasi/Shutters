@@ -1,9 +1,10 @@
+# this isn't finished
 import json
 import serial
 import time
 
 from functions import getPublicIP
-from multiprocessing import Process
+#from multiprocessing import Process
 
 ser = serial.Serial(
     port='/dev/serial0',

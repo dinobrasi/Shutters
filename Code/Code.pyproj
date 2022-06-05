@@ -136,7 +136,6 @@
     <Content Include="mainApp\static\scripts\script.js" />
     <Content Include="mainApp\static\windows.json" />
     <Content Include="mainApp\templates\default.html" />
-    <Content Include="sensorApp\config.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
