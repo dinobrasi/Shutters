@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>688292b7-0305-408d-b23b-7501500268cd</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>Code</Name>
+    <RootNamespace>Code</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="mainApp\" />
+    <Folder Include="mainApp\static\" />
+    <Folder Include="mainApp\static\bootstrap\" />
+    <Folder Include="mainApp\static\bootstrap\css\" />
+    <Folder Include="mainApp\static\bootstrap\js\" />
+    <Folder Include="mainApp\static\content\" />
+    <Folder Include="mainApp\static\fonts\" />
+    <Folder Include="mainApp\static\img\" />
+    <Folder Include="mainApp\static\scripts\" />
+    <Folder Include="mainApp\templates\" />
+    <Folder Include="relayAPI\" />
+    <Folder Include="sensorAPI\" />
+    <Folder Include="sensorApp\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="mainApp\functions.py" />
+    <Compile Include="mainApp\app_relay.py" />
+    <Compile Include="mainApp\windows.py" />
+    <Compile Include="mainApp\__init__.py" />
+    <Compile Include="relayAPI\api_relay.py" />
+    <Compile Include="relayAPI\functions.py" />
+    <Compile Include="relayAPI\ioexpander.py" />
+    <Compile Include="sensorAPI\api_sensor.py" />
+    <Compile Include="sensorAPI\functions.py" />
+    <Compile Include="sensorApp\functions.py" />
+    <Compile Include="sensorApp\app_sensor.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-grid.rtl.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-reboot.rtl.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-utilities.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-utilities.css.map" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-utilities.min.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-utilities.min.css.map" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-utilities.rtl.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap.css.map" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap.min.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap.rtl.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap.rtl.css.map" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap.rtl.min.css" />
+    <Content Include="mainApp\static\bootstrap\css\bootstrap.rtl.min.css.map" />
+    <Content Include="mainApp\static\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="mainApp\static\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="mainApp\static\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="mainApp\static\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="mainApp\static\bootstrap\js\bootstrap.esm.js" />
+    <Content Include="mainApp\static\bootstrap\js\bootstrap.esm.js.map" />
+    <Content Include="mainApp\static\bootstrap\js\bootstrap.esm.min.js" />
+    <Content Include="mainApp\static\bootstrap\js\bootstrap.esm.min.js.map" />
+    <Content Include="mainApp\static\bootstrap\js\bootstrap.js" />
+    <Content Include="mainApp\static\bootstrap\js\bootstrap.js.map" />
+    <Content Include="mainApp\static\bootstrap\js\bootstrap.min.js" />
+    <Content Include="mainApp\static\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="mainApp\static\content\styles.css" />
+    <Content Include="mainApp\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="mainApp\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="mainApp\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="mainApp\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="mainApp\static\img\android-chrome-96x96.png" />
+    <Content Include="mainApp\static\img\apple-touch-icon.png" />
+    <Content Include="mainApp\static\img\arrow.png" />
+    <Content Include="mainApp\static\img\arrowt.png" />
+    <Content Include="mainApp\static\img\bot_closed.png" />
+    <Content Include="mainApp\static\img\bot_open.png" />
+    <Content Include="mainApp\static\img\browserconfig.xml" />
+    <Content Include="mainApp\static\img\favicon-16x16.png" />
+    <Content Include="mainApp\static\img\favicon-32x32.png" />
+    <Content Include="mainApp\static\img\favicon.ico" />
+    <Content Include="mainApp\static\img\mstile-150x150.png" />
+    <Content Include="mainApp\static\img\Page 1 %281%29.svg" />
+    <Content Include="mainApp\static\img\Page 1.svg" />
+    <Content Include="mainApp\static\img\safari-pinned-tab.svg" />
+    <Content Include="mainApp\static\img\top_closed.png" />
+    <Content Include="mainApp\static\img\top_open.png" />
+    <Content Include="mainApp\static\img\window.svg" />
+    <Content Include="mainApp\static\img\window_closed.svg" />
+    <Content Include="mainApp\static\img\window_closed_dn.png" />
+    <Content Include="mainApp\static\img\window_closed_dn_blue.png" />
+    <Content Include="mainApp\static\img\window_closed_up.png" />
+    <Content Include="mainApp\static\img\window_closed_up_blue.png" />
+    <Content Include="mainApp\static\img\window_open.svg" />
+    <Content Include="mainApp\static\img\window_open_dn.png" />
+    <Content Include="mainApp\static\img\window_open_up.png" />
+    <Content Include="mainApp\static\scripts\jquery-3.6.0.js" />
+    <Content Include="mainApp\static\scripts\jquery-3.6.0.min.js" />
+    <Content Include="mainApp\static\scripts\jquery-3.6.0.min.map" />
+    <Content Include="mainApp\static\scripts\script.js" />
+    <Content Include="mainApp\static\windows.json" />
+    <Content Include="mainApp\templates\default.html" />
+    <Content Include="sensorApp\config.json" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

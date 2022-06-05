@@ -1,0 +1,292 @@
+{
+	"windows": {
+		"office_west_south": {
+			"id": 1,
+			"name": "Office West South",
+			"floor": 1,
+			"cable": 1445,
+			"board": 2,
+			"down": 17,
+			"up": 18
+		},
+		"garage_north": {
+			"id": 2,
+			"name": "Garage North",
+			"floor": 1,
+			"cable": 1450,
+			"board": 2,
+			"down": 19,
+			"up": 20
+		},
+		"sitting_south_east": {
+			"id": 3,
+			"name": "Sitting South East",
+			"floor": 1,
+			"cable": 1433,
+			"board": 2,
+			"down": 21,
+			"up": 22
+		},
+		"office_south_east": {
+			"id": 4,
+			"name": "Office South East",
+			"floor": 1,
+			"cable": 1443,
+			"board": 2,
+			"down": 23,
+			"up": 24
+		},
+		"livingroom_north_west": {
+			"id": 5,
+			"name": "Livingroom North West",
+			"floor": 1,
+			"cable": 1406,
+			"board": 2,
+			"down": 25,
+			"up": 26
+		},
+		"kitchen_east": {
+			"id": 6,
+			"name": "Kitchen East",
+			"floor": 1,
+			"cable": 1418,
+			"board": 2,
+			"down": 27,
+			"up": 28
+		},
+		"livingroom_west_south": {
+			"id": 7,
+			"name": "Livingroom West South",
+			"floor": 1,
+			"cable": 1404,
+			"board": 2,
+			"down": 29,
+			"up": 30
+		},
+		"kitchen_north_west": {
+			"id": 8,
+			"name": "Kitchen North West",
+			"floor": 1,
+			"cable": 1416,
+			"board": 2,
+			"down": 31,
+			"up": 32
+		},
+		"office_west_north": {
+			"id": 9,
+			"name": "Office West North",
+			"floor": 1,
+			"cable": 1446,
+			"board": 1,
+			"down": 1,
+			"up": 2
+		},
+		"garage_south": {
+			"id": 10,
+			"name": "Garage South",
+			"floor": 1,
+			"cable": 1451,
+			"board": 1,
+			"down": 3,
+			"up": 4
+		},
+		"sitting_south_west": {
+			"id": 11,
+			"name": "Sitting South West",
+			"floor": 1,
+			"cable": 1434,
+			"board": 1,
+			"down": 5,
+			"up": 6
+		},
+		"office_south_west": {
+			"id": 12,
+			"name": "Office South West",
+			"floor": 1,
+			"cable": 1444,
+			"board": 1,
+			"down": 7,
+			"up": 8
+		},
+		"kitchen_north_east": {
+			"id": 13,
+			"name": "Kitchen North East",
+			"floor": 1,
+			"cable": 1417,
+			"board": 1,
+			"down": 9,
+			"up": 10
+		},
+		"sitting_east": {
+			"id": 14,
+			"name": "Sitting East",
+			"floor": 1,
+			"cable": 1432,
+			"board": 1,
+			"down": 11,
+			"up": 12
+		},
+		"livingroom_west_north": {
+			"id": 15,
+			"name": "Livingroom West North",
+			"floor": 1,
+			"cable": 1405,
+			"board": 1,
+			"down": 13,
+			"up": 14
+		},
+		"livingroom_north_east": {
+			"id": 16,
+			"name": "Livingroom North East",
+			"floor": 1,
+			"cable": 1407,
+			"board": 1,
+			"down": 15,
+			"up": 16
+		},
+		"rotunda_skylight_2": {
+			"id": 17,
+			"name": "Rotunda Skylight 2",
+			"floor": 2,
+			"cable": 2,
+			"board": 3,
+			"down": 1,
+			"up": 2
+		},
+		"library_west_north": {
+			"id": 18,
+			"name": "Library West North",
+			"floor": 2,
+			"cable": 2437,
+			"board": 3,
+			"down": 3,
+			"up": 4
+		},
+		"castle_south_west": {
+			"id": 19,
+			"name": "Castle South West",
+			"floor": 2,
+			"cable": 2426,
+			"board": 3,
+			"down": 5,
+			"up": 6
+		},
+		"library_south_west": {
+			"id": 20,
+			"name": "Library South West",
+			"floor": 2,
+			"cable": 2435,
+			"board": 3,
+			"down": 7,
+			"up": 8
+		},
+		"master_north_east": {
+			"id": 21,
+			"name": "Master North East",
+			"floor": 2,
+			"cable": 2414,
+			"board": 3,
+			"down": 9,
+			"up": 10
+		},
+		"castle_east": {
+			"id": 22,
+			"name": "Castle East",
+			"floor": 2,
+			"cable": 2424,
+			"board": 3,
+			"down": 11,
+			"up": 12
+		},
+		"guest_west_north": {
+			"id": 23,
+			"name": "Guest West North",
+			"floor": 2,
+			"cable": 2405,
+			"board": 3,
+			"down": 13,
+			"up": 14
+		},
+		"guest_north_east": {
+			"id": 24,
+			"name": "Guest North East",
+			"floor": 2,
+			"cable": 2407,
+			"board": 3,
+			"down": 15,
+			"up": 16
+		},
+		"rotunda_skylight_1": {
+			"id": 25,
+			"name": "Rotunda Skylight 1",
+			"floor": 2,
+			"cable": 1,
+			"board": 4,
+			"down": 17,
+			"up": 18
+		},
+		"library_west_south": {
+			"id": 26,
+			"name": "Library West South",
+			"floor": 2,
+			"cable": 2436,
+			"board": 4,
+			"down": 19,
+			"up": 20
+		},
+		"castle_south_east": {
+			"id": 27,
+			"name": "Castle South East",
+			"floor": 2,
+			"cable": 2425,
+			"board": 4,
+			"down": 21,
+			"up": 22
+		},
+		"library_south_east": {
+			"id": 28,
+			"name": "Library South East",
+			"floor": 2,
+			"cable": 2434,
+			"board": 4,
+			"down": 23,
+			"up": 24
+		},
+		"master_north_west": {
+			"id": 29,
+			"name": "Master North West",
+			"floor": 2,
+			"cable": 2413,
+			"board": 4,
+			"down": 25,
+			"up": 26
+		},
+		"guest_west_south": {
+			"id": 30,
+			"name": "Guest West South",
+			"floor": 2,
+			"cable": 2404,
+			"board": 4,
+			"down": 27,
+			"up": 28
+		},
+		"master_east": {
+			"id": 31,
+			"name": "Master East",
+			"floor": 2,
+			"cable": 2415,
+			"board": 4,
+			"down": 29,
+			"up": 30
+		},
+		"guest_north_west": {
+			"id": 32,
+			"name": "Guest North West",
+			"floor": 2,
+			"cable": 2406,
+			"board": 4,
+			"down": 31,
+			"up": 32
+		}
+	}
+}

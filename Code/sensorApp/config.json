@@ -1,0 +1,61 @@
+{
+	"controller": "192.168.1.240",
+	"dns": "192.168.1.1",
+	"ssid": "Dogwood Manor",
+	"pwd": "this is a great place to store a password lol",
+	"pin": {
+		"relay": 11,
+		"sensor": 16,
+		"led_green": 18,
+		"led_red": 22,
+		"shutdown": 13,
+		"reboot": 15
+	},
+	"pi": [
+        {
+            "mac": "e4:5f:01:b6:2d:e5",
+            "area": "barn",
+            "role": "sensor",
+            "ip": ""
+        },
+        {
+			"mac": "10:65:30:14:1c:za",
+			"area": "barn",
+			"role": "switch",
+			"ip": "192.168.1.241",
+			"targeturl": "http://192.168.1.242"
+		},
+		{
+			"mac": "10:65:30:14:1c:zb",
+			"area": "barn",
+			"role": "sensor",
+			"ip": "192.168.1.242"
+		},
+		{
+			"mac": "10:65:30:14:1c:zc",
+			"area": "ch",
+			"role": "switch",
+			"ip": "192.168.1.243",
+			"targeturl": "http://192.168.1.244"
+		},
+		{
+			"mac": "10:65:30:14:1c:zd",
+			"area": "ch",
+			"role": "sensor",
+			"ip": "192.168.1.244"
+		},
+		{
+			"mac": "10:65:30:14:1c:48",
+			"area": "gate",
+			"role": "switch",
+			"ip": "192.168.1.241",
+			"targeturl": "http://192.168.1.163"
+		},
+		{
+			"mac": "10:65:30:14:1c:zf",
+			"area": "gate",
+			"role": "sensor",
+			"ip": "192.168.1.163"
+		}
+	]
+}
