@@ -2,12 +2,14 @@ from os import environ
 from flask import Flask, render_template, request, send_from_directory
 from functions import getWindows
 from functions import getPublicIP
+import sys
+import time
 
 app = Flask(__name__)
 
 #net = "eth0"
 #net = "wlan0"
-#public_ip = getPublicIP(net) # '192.168.0.82'
+#public_ip = getPublicIP(net)
 
 #net = "eth0"
 net = "wlan0"
@@ -30,6 +32,7 @@ while waiting:
             waiting = False 
     
     time.sleep(1) # waiting for the network at boot. I know there is a setting, but it wasn't working for me.
+
 
 @app.route('/')
 def index():
