@@ -6,8 +6,30 @@ from functions import getPublicIP
 app = Flask(__name__)
 
 #net = "eth0"
+#net = "wlan0"
+#public_ip = getPublicIP(net) # '192.168.0.82'
+
+#net = "eth0"
 net = "wlan0"
-public_ip = getPublicIP(net) # '192.168.0.82'
+expected_ip = "192.168.0.230" # waiting for the network at boot. I know there is a setting, but it wasn't working for me.
+waiting = True
+counter = 0
+
+while waiting:
+    public_ip = getPublicIP(net)
+    
+    sys.stdout.write("[" + str(counter) + "] Waiting for IP Address " + expected_ip + ". Getting: " + public_ip + "\r")
+    sys.stdout.flush()
+
+    if expected_ip == public_ip:
+        waiting = False
+    else:
+        counter = counter + 1
+        
+        if counter == 1000:
+            waiting = False 
+    
+    time.sleep(1) # waiting for the network at boot. I know there is a setting, but it wasn't working for me.
 
 @app.route('/')
 def index():
