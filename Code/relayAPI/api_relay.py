@@ -10,8 +10,30 @@ app = Flask(__name__)
 api = Api(app)
 
 #net = "eth0"
+#net = "wlan0"
+#public_ip = getPublicIP(net)
+
+#net = "eth0"
 net = "wlan0"
-public_ip = getPublicIP(net)
+expected_ip = "192.168.0.230" # waiting for the network at boot. I know there is a setting, but it wasn't working for me.
+waiting = True
+counter = 0
+
+while waiting:
+    public_ip = getPublicIP(net)
+    
+    sys.stdout.write("[" + str(counter) + "] Waiting for IP Address " + expected_ip + ". Getting: " + public_ip + "\r")
+    sys.stdout.flush()
+
+    if expected_ip == public_ip:
+        waiting = False
+    else:
+        counter = counter + 1
+        
+        if counter == 1000:
+            waiting = False 
+    
+    time.sleep(1) # waiting for the network at boot. I know there is a setting, but it wasn't working for me.
 
 window_list = {
 	"window_1" : { "board": 2, "down": 17, "up": 18 },
